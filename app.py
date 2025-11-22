@@ -11,10 +11,10 @@ app = Flask(__name__)
 # ==========================================
 # 🔑 API 키 설정 (여기에 본인 키 입력)
 # ==========================================
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-SEARCH_API_KEY = "YOUR_SEARCH_API_KEY"
-SEARCH_ENGINE_ID = "YOUR_SEARCH_ENGINE_ID"
-UNSPLASH_ACCESS_KEY = "YOUR_UNSPLASH_KEY"
+GEMINI_API_KEY = "AIzaSyBuMRAXVUmol2Z7oOxJsY3SuMh3NuQVuWA"
+SEARCH_API_KEY = "AIzaSyBU1gZdBZpCrsM-QySU-xX52hM9yqg1YL0"
+SEARCH_ENGINE_ID = "267a36db4217c46ea"
+UNSPLASH_ACCESS_KEY = "KZLleox5JRQGb59N6woBkiwbRAmDTb7iQ8xc74aCNzA"
 
 # Gemini 설정
 genai.configure(api_key=GEMINI_API_KEY)
